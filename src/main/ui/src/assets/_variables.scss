@@ -7,11 +7,9 @@ $bg-card-color: hsla(51, 7%, 92%, 1); //фон карточки
 $light-el-bg-color: hsla(233, 66%, 91%, 1); //фон верхнего элемента
 
 
-$bxsh-down: 9px 9px 16px hsla(228, 48%, 93%, 1); // тень нижняя внешняя
-$bxsh-up: -9px -9px 16px hsla(228, 15%, 70%, 1); // тень верхняя внешняя
+$bxsh: -9px -9px 16px hsla(228, 48%, 93%, 1), 9px 9px 16px hsla(228, 15%, 70%, 1); // тень
 
-$bxsh-down-inner: inset 9px 9px 16px hsla(228, 15%, 70%, 1); // тень нижняя внутренняя
-$bxsh-up-inner: inset -9px -9px 16px hsla(228, 36%, 88%, 1); // тень верхняя внутренняя
+$bxsh-inner: inset 9px 9px 16px hsla(228, 15%, 70%, 1),  inset -9px -9px 16px hsla(228, 36%, 88%, 1); // тень внутренняя
 
 $bdrs: 7px; //скругление границ
 $border: 1px solid hsla(0, 0%, 100%, 0.4); //границы

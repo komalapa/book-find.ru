@@ -21,5 +21,10 @@ export default {
 </script>
 
 <style scoped>
-
+header {
+  padding: 16px 0;
+}
+.container {
+  width: 1156px;
+}
 </style>
