@@ -85,7 +85,7 @@
     display: block;
     background: #FFFFFF;
     border-radius: 10px;
-    margin: 0,auto;
+    margin: 0 auto;
     padding: 70px 25px;
   }
   .inputs{
