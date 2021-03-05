@@ -10,7 +10,7 @@
 </svg>
 
      </div>
-     <ul v-if="!isCorrectEmail" class="socials">
+     <!-- <ul v-if="!isCorrectEmail" class="socials">
        <li class="socials-item"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M25.5 4.72797C25.5 2.48186 23.5181 0.5 21.272 0.5H4.22797C1.98186 0.5 0 2.48186 0 4.72797V21.772C0 24.0181 1.98186 26 4.22797 26H12.8161V16.3549H9.64508V12.1269H12.8161V10.4093C12.8161 7.50259 14.9301 4.99222 17.5725 4.99222H21.0078V9.22019H17.5725C17.1762 9.22019 16.7798 9.61658 16.7798 10.4093V12.1269H21.0078V16.3549H16.7798V26H21.272C23.5181 26 25.5 24.0181 25.5 21.772V4.72797Z" fill="white"/>
 </svg>
@@ -33,8 +33,9 @@
 </svg>
 
        </li>
-     </ul>
+     </ul> 
      <span v-if="!isCorrectEmail" class="info">или</span>
+     -->
      <input  v-if="!isCorrectEmail" class = "inputs" required v-model="email" type="email" placeholder="Введите свой e-mail" autofocus autocomplete="email"/>
      <span v-if="isCorrectEmail" class="correct-email" @click="changeEmail">{{email}}</span>
      <input v-if="isCorrectEmail" class = "inputs" required v-model="password" ref="password" type="password" placeholder="Введите пароль" autofocus/>
